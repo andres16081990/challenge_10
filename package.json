@@ -1,0 +1,29 @@
+{
+  "name": "challenge_10",
+  "version": "1.0.0",
+  "description": "Challenge 10 of course express make it real",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres16081990/challenge_10.git"
+  },
+  "author": "Joaqin Beltran\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Duin Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres16081990/challenge_10/issues"
+  },
+  "homepage": "https://github.com/andres16081990/challenge_10#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
