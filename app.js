@@ -37,4 +37,4 @@ app.set('view engine','.hbs');
 app.use('/', routes);
 
 
-app.listen(process.env.PORT || port ,console.log(`App running in port ${process.env.PORT || port}`))
+app.listen(port ,console.log(`App running in port ${port}`))

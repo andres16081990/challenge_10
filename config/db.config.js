@@ -2,9 +2,8 @@
 
 const mongooose = require('mongoose');
 
-const URL = 'mongodb://localhost:27017/challenge_10'
 
-mongooose.connect(process.env.MONGO_DB_URL || URL,{
+mongooose.connect(process.env.MONGODB_URL || 'mongodb://localhost:27017/mongo-1',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
