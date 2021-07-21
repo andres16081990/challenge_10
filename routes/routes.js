@@ -18,10 +18,12 @@ router.get('/register',(req,res)=>{
 
 router.post('/register', async (req,res)=>{
     const {name, email, password}= req.body
+    
     try {
         const user = await new User({name, email, password});
         await user.save();
         res.status(200).redirect('/');
+        console.log(user.name.id)
     } catch (error) {
         console.log(error);
     }
